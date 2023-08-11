@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Archive
 %define devname %mklibname KF6Archive -d
-%define git 20230802
+%define git 20230811
 
 Name: kf6-karchive
 Version: 5.240.0
