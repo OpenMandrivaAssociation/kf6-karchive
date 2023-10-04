@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Archive
 %define devname %mklibname KF6Archive -d
-%define git 20230927
+%define git 20231004
 
 Name: kf6-karchive
 Version: 5.240.0
@@ -77,7 +77,6 @@ Qt addon providing access to numerous types of archives
 %files -n %{devname}
 %{_includedir}/KF6/KArchive
 %{_libdir}/cmake/KF6Archive
-%{_qtdir}/mkspecs/modules/qt_KArchive.pri
 %{_qtdir}/doc/KF6Archive.*
 
 %files -n %{libname}
