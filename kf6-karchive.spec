@@ -39,6 +39,7 @@ BuildRequires: pkgconfig(zlib)
 BuildRequires: pkgconfig(bzip2)
 BuildRequires: pkgconfig(liblzma)
 BuildRequires: pkgconfig(libzstd)
+BuildRequires: pkgconfig(openssl)
 Requires: %{libname} = %{EVRD}
 
 %description
