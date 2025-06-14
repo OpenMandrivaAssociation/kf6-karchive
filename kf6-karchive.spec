@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-karchive
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/karchive/-/archive/master/karchive-master.tar.bz2#/karchive-%{git}.tar.bz2
@@ -85,7 +85,6 @@ Qt addon providing access to numerous types of archives
 %files -n %{devname}
 %{_includedir}/KF6/KArchive
 %{_libdir}/cmake/KF6Archive
-%{_qtdir}/doc/KF6Archive.*
 
 %files -n %{libname}
 %{_libdir}/libKF6Archive.so*
